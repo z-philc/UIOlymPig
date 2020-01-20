@@ -62,77 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\Scripts\_System\BootLoaderManager.cs" />
-    <Compile Include="Assets\Scripts\_System\GameManager.cs" />
-    <Compile Include="Assets\Scripts\_System\LoadSceneManager.cs" />
-    <Compile Include="Assets\Scripts\_System\ObjectPooler.cs" />
-    <Compile Include="Assets\Scripts\_System\PoolManager.cs" />
-    <Compile Include="Assets\Scripts\_System\Singleton.cs" />
-    <Compile Include="Assets\Scripts\_System\SingletonMono.cs" />
-    <Compile Include="Assets\Scripts\_System\SoundManager.cs" />
-    <Compile Include="Assets\Scripts\_Util\Rotator.cs" />
-    <Compile Include="Assets\Scripts\Board\Board.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardBomber.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardClearer.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardCollapser.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardDeadlock.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardFiller.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardHighlighter.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardInput.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardMatcher.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardQuery.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardSetup.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardShuffler.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardTiles.cs" />
-    <Compile Include="Assets\Scripts\Collectible.cs" />
-    <Compile Include="Assets\Scripts\CollectionGoal.cs" />
-    <Compile Include="Assets\Scripts\CollectionGoalPanel.cs" />
-    <Compile Include="Assets\Scripts\Global.cs" />
-    <Compile Include="Assets\Scripts\LevelConfiguration\Level.cs" />
-    <Compile Include="Assets\Scripts\LevelConfiguration\World.cs" />
-    <Compile Include="Assets\Scripts\LevelGoal.cs" />
-    <Compile Include="Assets\Scripts\LevelGoalCollected.cs" />
-    <Compile Include="Assets\Scripts\LevelGoalScored.cs" />
-    <Compile Include="Assets\Scripts\LevelGoalTimed.cs" />
-    <Compile Include="Assets\Scripts\LevelMap\LevelMap.cs" />
-    <Compile Include="Assets\Scripts\ParticleManager.cs" />
-    <Compile Include="Assets\Scripts\ParticlePlayer.cs" />
-    <Compile Include="Assets\Scripts\Piece\Blocker.cs" />
-    <Compile Include="Assets\Scripts\Piece\Bomb.cs" />
-    <Compile Include="Assets\Scripts\Piece\Booster.cs" />
-    <Compile Include="Assets\Scripts\Piece\GamePiece.cs" />
-    <Compile Include="Assets\Scripts\Piece\GamePieceBreakable.cs" />
-    <Compile Include="Assets\Scripts\Piece\SortLayerPieces.cs" />
-    <Compile Include="Assets\Scripts\Piece\Tile.cs" />
-    <Compile Include="Assets\Scripts\PigController.cs" />
-    <Compile Include="Assets\Scripts\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\Score\ScoreManager.cs" />
-    <Compile Include="Assets\Scripts\Score\ScoreMeter.cs" />
-    <Compile Include="Assets\Scripts\Score\ScoreStar.cs" />
-    <Compile Include="Assets\Scripts\Score\TimeBonus.cs" />
-    <Compile Include="Assets\Scripts\Score\Timer.cs" />
-    <Compile Include="Assets\Scripts\UI\Dialog\BaseDialog.cs" />
-    <Compile Include="Assets\Scripts\UI\Dialog\BaseDialogAnimation.cs" />
-    <Compile Include="Assets\Scripts\UI\Dialog\Detail\MessageDialog.cs" />
-    <Compile Include="Assets\Scripts\UI\Dialog\Detail\PauseDialog.cs" />
-    <Compile Include="Assets\Scripts\UI\Dialog\DialogConfig.cs" />
-    <Compile Include="Assets\Scripts\UI\Dialog\DialogManager.cs" />
-    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
-    <Compile Include="Assets\Scripts\UI\View\BaseAnimation.cs" />
-    <Compile Include="Assets\Scripts\UI\View\BaseView.cs" />
-    <Compile Include="Assets\Scripts\UI\View\ViewConfig.cs" />
-    <Compile Include="Assets\Scripts\UI\View\ViewDetail\EmptyView.cs" />
-    <Compile Include="Assets\Scripts\UI\View\ViewDetail\HomeView.cs" />
-    <Compile Include="Assets\Scripts\UI\View\ViewDetail\LevelView.cs" />
-    <Compile Include="Assets\Scripts\UI\View\ViewDetail\LoadingView.cs" />
-    <Compile Include="Assets\Scripts\UI\View\ViewManager.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\ComboBox\ComboBoxChanged.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\Cooldown\CooldownEffect_Image.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\Cooldown\CooldownEffect_SAUIM.cs" />
@@ -508,9 +437,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/Users/philc/Dev/TSD/PuzzleCore/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>/Users/philc/Dev/TSD/PuzzleCore/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.10f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
