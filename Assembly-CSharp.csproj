@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\HomeView.cs" />
     <Compile Include="Assets\Scripts\MapView.cs" />
+    <Compile Include="Assets\Scripts\RoundView.cs" />
+    <Compile Include="Assets\Scripts\StageView.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\ComboBox\ComboBoxChanged.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\Cooldown\CooldownEffect_Image.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\Cooldown\CooldownEffect_SAUIM.cs" />

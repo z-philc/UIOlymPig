@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{B622E574-1485-E694-175E-36223D4B6309}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MapView.cs">
     <Files>
-      <File FileName="Assets/Scripts/MapView.cs" Line="11" Column="27" />
-      <File FileName="Assets/Scripts/HomeView.cs" Line="16" Column="9" />
+      <File FileName="Assets/Scripts/MapView.cs" Line="61" Column="41" />
+      <File FileName="Assets/Scripts/HomeView.cs" Line="24" Column="6" />
+      <File FileName="Assets/Scripts/StageView.cs" Line="7" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ClassPad">

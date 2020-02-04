@@ -43,7 +43,7 @@ public class MapView : MonoBehaviour
         //print("next");
     }
 
-    void GetMapInMapList(bool backClick = true, bool nextClick = true)
+    void ShowMapOfList(bool backClick = true, bool nextClick = true)
     {
 
     }
