@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,8 +11,13 @@ public class MapView : MonoBehaviour
     public Button btnBack;
     public Button btnNext;
     [SerializeField] GameObject currentMap;
+    [SerializeField] String mapName = "Map";
+    private int mapNumber;
 
-    //public event Action
+    void Start()
+    {
+        StartCoroutine(FindCurrentMap());
+    }
 
     // Update is called once per frame
     void Update()
@@ -27,13 +33,39 @@ public class MapView : MonoBehaviour
 
     void BtnBackClick()
     {
-        currentMap = GameObject.Find("Scroll");
-        print(currentMap.transform.GetChild(0));
-        print("back");
+
+        //print(currentMap.transform.GetChild(0));
+        //print("back");
     }
 
     void BtnNextClick()
     {
-        print("next");
+        //print("next");
+    }
+
+    void GetMapInMapList(bool backClick = true, bool nextClick = true)
+    {
+
+    }
+
+    IEnumerator FindCurrentMap()
+    {
+        //Instantiate(Resources.Load("Maps/Map1", typeof(GameObject))) ;
+
+        /* If not save data, default of mapNumber is 1 */
+        //if (saved)
+        //{
+        //    mapNumber = saved
+        //}
+        mapNumber = 1;
+        mapName += mapNumber.ToString();
+        print(gameObject.name);
+        string path = "Maps/" + mapName;
+        currentMap = Instantiate(Resources.Load(path, typeof(GameObject))) as GameObject;
+
+        currentMap.transform.SetParent(GameObject.FindWithTag("Respawn").transform);
+
+        // Instantiate an map object
+        yield return new WaitForEndOfFrame();
     }
 }

@@ -1,10 +1,16 @@
 ﻿<Properties StartupConfiguration="{B622E574-1485-E694-175E-36223D4B6309}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MapView.cs">
     <Files>
-      <File FileName="Assets/Scripts/MapView.cs" Line="16" Column="9" />
+      <File FileName="Assets/Scripts/MapView.cs" Line="11" Column="27" />
+      <File FileName="Assets/Scripts/HomeView.cs" Line="16" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="PuzzleCore" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="PuzzleCore" expanded="True" selected="True" />
         </State>
